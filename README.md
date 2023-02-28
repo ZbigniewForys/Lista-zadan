@@ -1,5 +1,5 @@
 # Tasks list
-![Demo](images/demo.png)
+![Demo](https://github.com/ZbigniewForys/Lista-zadan/tree/main/images/demo.png)
 
 ## Tasks list: 
 Enabling the saving of planned tasks and successive deselection of individual tasks
