@@ -1,6 +1,52 @@
 .form {
-padding: 10px;
-max-width: 1000px;
-margin: 10px auto 0 auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    border-top: 1px;
+    border-color: white;
+    border-style: solid;
+}
 
+.form__input {
+    padding-left: 10px;
+    width: 75%;
+    margin: 10px;
+}
+
+@media (max-width:767px) {
+    .form__input {
+        padding-left: 0;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.form__paragraph {
+    font-size: large;
+    font-weight: 600;
+    padding-left: 10px;
+    margin: 10px;
+
+    background-color: white;
+
+}
+
+.form__buttonAddTask {
+    margin-left: 20px;
+    color: white;
+    background-color: darkcyan;
+    height: 40px;
+    border-style: none;
+
+}
+
+@media (max-width:767px) {
+    .form__buttonAddTask {
+        margin: 5px 0;
+        width: 100%;
+        height: 30px;
+
+
+    }
 }
