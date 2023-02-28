@@ -1,15 +1,9 @@
-# Currency calculator
-![Calculator] (images/calculator.png)
+# Tasks list
+![Demo] (images/demo.png)
 
-## Calculator task: 
- Conversion of PLN values into currencies: 
-- EUR
-- USD
-- CHF
-- GBP
+## Tasks list: 
+Enabling the saving of planned tasks and successive deselection of individual tasks
 
- based on the exchange rates published on the website NBP : "https://www.nbp.pl/home.aspx?f=/statystyka/kursy.html"
 ## Procedure
-When starting the calculator, the current date and the default amount of PLN 100 are set. 
-The value in PLN and the date can be freely changed. After the change, press the "Convert" button, which downloads the rates and converts them into currencies.
-The results are included in the table.
+Enter a list of actions and then successively uncheck their execution.
+Actions that are no longer relevant can be removed from the list.
