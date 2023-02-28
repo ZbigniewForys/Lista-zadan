@@ -1,5 +1,5 @@
 # Tasks list
-![Demo] (images/demo.png)
+![Demo] (images\demo.png)
 
 ## Tasks list: 
 Enabling the saving of planned tasks and successive deselection of individual tasks
