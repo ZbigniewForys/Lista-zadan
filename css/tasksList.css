@@ -38,7 +38,7 @@
 
 .tasksList__button--remove {
 /*     background-image: url("images/remove.png"); */
-    background-image: url(https://github.com/ZbigniewForys/Lista-zadan/tree/main/images/remove.png);
+    background-image: url("remove.png");
 }
 
 .tasksList__paragraph {
