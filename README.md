@@ -1,10 +1,3 @@
-
-<<<<<<< HEAD
-# Tasks list
-![Demo] (images/demo.png)
-
-## Tasks list: 
-=======
 # Tasks list: 
 
 Enabling the saving of planned tasks and successive deselection of individual tasks
