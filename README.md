@@ -1,8 +1,12 @@
 
+<<<<<<< HEAD
 # Tasks list
 ![Demo] (images/demo.png)
 
 ## Tasks list: 
+=======
+# Tasks list: 
+
 Enabling the saving of planned tasks and successive deselection of individual tasks
 
 # Procedure
@@ -12,5 +16,3 @@ Actions that are no longer relevant can be removed from the list.
 # Demo
 ![Demo](https://github.com/ZbigniewForys/Lista-zadan/blob/main/images/demo.PNG)
 
-# Demo
-![Demo](https://github.com/ZbigniewForys/Lista-zadan/blob/main/images/demo.PNG)
