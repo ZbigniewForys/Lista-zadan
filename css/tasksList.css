@@ -1,16 +1,15 @@
 .tasksList {
-    margin: 1px 10px;
     padding: 0 3px;
-    background-color: white;
 }
 
 .tasksList__header {
-    margin: 0 10px 2px;
+    margin: 0 12px 2px;
     padding-left: 5px;
     background-color: white;
 }
 
 .tasksList__line {
+    padding :5px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -35,10 +34,16 @@
 }
 
 .tasksList__paragraph {
+   
     margin: 5px;
     padding: 5px;
     width: 100%;
     display: inline-block;
+}
+
+.tasksList__paragraph--done {
+     color:rgb(128,128,128);
+     text-decoration:line-through;
 }
 
 @media (max-width:767px) {

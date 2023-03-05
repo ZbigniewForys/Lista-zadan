@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-<meta property="og:image" content="images/List.PNG"/>
-    <!-- <meta property="og:image" content="https://raw.githubusercontent.com/ZbigniewForys/Lista-zadan/main/images/List.PNG"/> -->
-
+    <meta property="og:image" content="images/List.PNG" />
     <link rel="icon" href="images/tasks.png">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
@@ -23,30 +21,21 @@
 
 <body class="body">
 
-
     <div class="container">
-        <h2 class="header">Lista zadań</h2>
+        <h1 class="header">Lista zadań</h1>
 
         <section class="container__section">
             <h3 class="container__header">Dodaj nowe zadanie</h3>
-        </section>
 
-        <section class="comntainer__section">
             <form class="form js-form">
                 <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
                 <button class="form__buttonAddTask js-buttonAddTask">Dodaj zadanie</button>
             </form>
         </section>
 
-        <section class="container__section">
+        <section class="container__section container__section--tasksList">
             <h3 class="container__header">Lista zadań</h3>
-        </section>
-
-        <section class="container__section--taskList">
             <ul class="tasksList js-tasksList"></ul>
-        </section>
-
-        <section class="container__section--last">.
         </section>
 
     </div>
