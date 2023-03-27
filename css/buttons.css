@@ -1,0 +1,28 @@
+.buttons {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.buttons__button {
+    color: teal;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.2s, color 0.7s;
+}
+
+.buttons__button:hover {
+    color: rgb(66, 30, 101);
+    transform: scale(1.05);
+}
+
+.buttons__button:disabled {
+    color: lightgray;
+    transform: scale(1);
+}
+
+.buttons__button--hide {
+    display: none;
+}
