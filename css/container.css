@@ -2,24 +2,26 @@
     margin: 0 auto;
     max-width: 800px;
     min-width: 368px;
-
 }
 
 .container__section {
-    margin-bottom: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 3px;
     background-color: white;
+    border-color: #eeeeee;
+    border-style: solid;
 }
 
-.container__section--tasksList {
-    padding-bottom: 20px;
+.container__headerWithButtons {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 0;
+    border-bottom: 3px;
+    border-color: #eeeeee;
+    border-style: solid;
 }
 
 .container__header {
     padding: 20px;
     margin: 0;
-    border: 0;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-color: #eeeeee;
-    border-style: solid;
 }

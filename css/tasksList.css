@@ -1,5 +1,6 @@
 .tasksList {
     padding: 0 3px;
+    margin: 0;
 }
 
 .tasksList__header {
@@ -9,7 +10,7 @@
 }
 
 .tasksList__line {
-    padding :5px;
+    padding: 5px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
@@ -17,6 +18,10 @@
     border-bottom: 1px;
     border-color: lightgray;
     border-bottom-style: solid;
+}
+
+.tasksList__line--hidden {
+    display: none;
 }
 
 .tasksList__button {
@@ -27,14 +32,25 @@
     background-color: green;
     color: white;
     font-weight: 700;
+    transition: transform 0.2s, color 0.7s;
+}
+
+.tasksList__button:hover {
+    background-color: rgba(0, 128, 0, 0.6);
+    transform: scale(1.1);
 }
 
 .tasksList__button--remove {
     background-color: red;
+    transition: transform 0.2s, color 0.7s;
+}
+
+.tasksList__button--remove:hover {
+    background-color: rgba(251, 1, 1, 0.6);
+    transform: scale(1.1);
 }
 
 .tasksList__paragraph {
-   
     margin: 5px;
     padding: 5px;
     width: 100%;
@@ -42,8 +58,8 @@
 }
 
 .tasksList__paragraph--done {
-     color:rgb(128,128,128);
-     text-decoration:line-through;
+    color: rgb(128, 128, 128);
+    text-decoration: line-through;
 }
 
 @media (max-width:767px) {
